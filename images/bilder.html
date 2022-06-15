@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bildgalleri</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+      }
+      .box {
+        position:relative;
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 15px;
+        border: 2px solid #fff;
+      }
+      img {
+        width: 100%;
+        transition: all linear 0.7s;
+      }
+
+      img.hover-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+
+
+      .box:hover img {
+        opacity: 0;
+      }
+      
+      .box:hover img.hover-img {
+        opacity: 1;
+      }
+
+      a {
+        display: block;
+        position: absolute;
+        top: 1%;
+        font-size: 30px;
+        text-decoration: none;
+        border-style: solid;
+        border-radius: 20px;
+        padding: 5px;
+        color: #fff;
+      }
+
+      a:hover {
+        background: #fff;
+        color: #333;
+        transition: 0.2s;
+      
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <a href="/Blogg/index.html">Tillbaka till hemsidan</a>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/hindas2.jpg">
+      <img class="hover-img" src="/Blogg/Blogg-images/blomma2.jpg">
+    </div>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/hindas8.jpg">
+      <img class="hover-img" src="/Blogg/Blogg-images/blomma3.jpg">
+    </div>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/selma1.jpg">
+      <img class="hover-img" src="/Blogg/Blogg-images/100_0336.jpg">
+    </div>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/hindas4.jpg">
+      <img class="hover-img" src="/Blogg/Blogg-images/IMG_4218.JPG">
+    </div>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/IMG_4252.JPG">
+      <img class="hover-img" src="/Blogg/Blogg-images/blomma1.jpg">
+    </div>
+    <div class="box">
+      <img src="/Blogg/Blogg-images/IMG_9862.JPG">
+      <img class="hover-img" src="/Blogg/Blogg-images/IMG_9846.JPG">
+    </div>
+
+  
+  </body>
+</html> 
