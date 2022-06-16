@@ -57,6 +57,7 @@ p {
   padding: 10px;
   line-height: 24px;
   margin: 0;
+  max-width: 50%;
 }
 
 span.entry {
@@ -296,8 +297,8 @@ img.bibliotek {
   width: 30%;
   height: 30%;
   float: right;
-  top: 130%;
-  left: 70%;
+  top: 145%;
+  left: 60%;
 }
 
 img.wrongtext {
@@ -307,7 +308,7 @@ img.wrongtext {
   height: 30%;
   float: right;
   top: 50%;
-  left: 70%;
+  left: 57%;
 }
 
 .todo {
