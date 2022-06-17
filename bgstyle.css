@@ -65,6 +65,11 @@ span.entry {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+span.entry-one {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 hr {
   border: none;
@@ -113,6 +118,10 @@ hr:after {
   list-style-type: none;
 }
 
+#main-navigation li:hover {
+  background-color: #111;
+}
+
 #main-navigation a,
 #main-navigation span {
   text-decoration: none;
@@ -142,6 +151,7 @@ hr:after {
   cursor: default;
 }
 
+
 .menu-label:hover {
   background-color: #111;
 }
@@ -157,20 +167,22 @@ hr:after {
 .dropdown-content {
   visibility: hidden;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #333;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
   z-index: 1;
   padding: 0;
   width: inherit;
 }
 
+
+
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: black;
 }
 
 
@@ -301,6 +313,11 @@ img.bibliotek {
   left: 60%;
 }
 
+img.bibliotek:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 img.wrongtext {
   display: block;
   position: absolute;
@@ -311,8 +328,58 @@ img.wrongtext {
   left: 57%;
 }
 
+img.wrongtext:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .todo {
   font-size: 20px;
   list-style-type: square;
 }
 
+.profilepicture {
+  position: absolute;
+  right: 46%;
+  top: 30%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: #333;
+
+}
+
+.profilepicture:hover {
+  border: 5px solid;
+  border-color: white;
+  transition: ease-in-out 0.4;
+  
+}
+
+.redalert {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 30%;
+  top: 235%;
+}
+
+.jagfail {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 30%;
+  top: 250%;
+}
+
+.redalert:hover {
+  right: 20%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.jagfail:hover {
+  right: 20%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
