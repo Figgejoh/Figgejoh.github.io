@@ -322,8 +322,8 @@ img.bibliotek:hover {
 img.wrongtext {
   display: block;
   position: absolute;
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
   float: right;
   top: 50%;
   left: 57%;
@@ -344,11 +344,12 @@ img.wrongtext:hover {
   top: 30%;
   height: 200px;
   width: 200px;
-  border-radius: 50%;
   border: 5px solid;
   border-color: #333;
+  border-radius: 50%;
 
 }
+
 
 .profilepicture:hover {
   border: 5px solid;
@@ -384,6 +385,75 @@ img.wrongtext:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+.javascript {
+  position: absolute;
+  width: 20%;
+  right: 20%;
+  top: 285%;
+}
+
+.javascript:hover {
+  right: 20%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.textlayout {
+  position: absolute;
+  width: 20%;
+  right: 20%;
+  top: 300%;
+}
+
+.textlayout:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.gridlayout1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  right: 20%;
+  top: 325%;
+}
+
+.gridlayout1:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.colorful {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  right: 1%;
+  top: 330%;
+}
+
+.colorful:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5)
+}
+
+.bloggstyle {
+  position: absolute;
+  width: 20%;
+  right: 10%;
+  top: 357%;
+}
+
+.bloggstyle:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
 
 @keyframes pulse {
   0% {
