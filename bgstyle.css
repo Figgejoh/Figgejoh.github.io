@@ -88,7 +88,8 @@ hr:after {
   top: -13px;
 }
 
-#blogg {
+.blogg {
+  position: relative;
   display: inline;
   font-size: 10px;
 }
@@ -310,7 +311,7 @@ img.bibliotek {
   width: 30%;
   height: 30%;
   float: right;
-  top: 145%;
+  top: 500px;
   left: 60%;
 }
 
@@ -341,7 +342,7 @@ img.wrongtext:hover {
 .profilepicture {
   position: absolute;
   right: 46%;
-  top: 30%;
+  top: 20%;
   height: 200px;
   width: 200px;
   border: 5px solid;
@@ -363,7 +364,7 @@ img.wrongtext:hover {
   display: block;
   right: 0;
   width: 30%;
-  top: 235%;
+  top: 16px;
 }
 
 .jagfail {
@@ -371,7 +372,7 @@ img.wrongtext:hover {
   display: block;
   right: 0;
   width: 30%;
-  top: 250%;
+  top: 200px;
 }
 
 .redalert:hover {
@@ -387,10 +388,10 @@ img.wrongtext:hover {
 }
 
 .javascript {
-  position: absolute;
+  position: relative;
   width: 20%;
   right: 20%;
-  top: 285%;
+  top: 16px;
 }
 
 .javascript:hover {
@@ -401,9 +402,9 @@ img.wrongtext:hover {
 
 .textlayout {
   position: absolute;
-  width: 20%;
-  right: 20%;
-  top: 300%;
+  width: 100%;
+  right: 100%;
+  top: 50px;
 }
 
 .textlayout:hover {
@@ -415,9 +416,9 @@ img.wrongtext:hover {
 .gridlayout1 {
   position: absolute;
   width: 20%;
-  height: 20%;
+  height: 70%;
   right: 20%;
-  top: 325%;
+  top: 16px;
 }
 
 .gridlayout1:hover {
@@ -429,9 +430,9 @@ img.wrongtext:hover {
 .colorful {
   position: absolute;
   width: 20%;
-  height: 20%;
+  height: 60%;
   right: 1%;
-  top: 330%;
+  top: 16px;
 }
 
 .colorful:hover {
@@ -444,7 +445,7 @@ img.wrongtext:hover {
   position: absolute;
   width: 20%;
   right: 10%;
-  top: 357%;
+  top: 32px;
 }
 
 .bloggstyle:hover {
@@ -453,7 +454,59 @@ img.wrongtext:hover {
   transform: scale(1.5);
 }
 
+.whathappened {
+  position: absolute;
+  width: 20%;
+  right: 10%;
+  top: 16px;
+}
 
+.whathappened2 {
+  position: absolute;
+  width: 20%;
+  right: 28%;
+  top: 16px;
+}
+
+.whathappened:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.whathappened2:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.layout2 {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  top: 250px;
+  right: 5%;
+}
+
+.skew {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  top: 250px;
+  right: 27%;
+}
+
+.layout2:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.skew:hover {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
 
 @keyframes pulse {
   0% {
